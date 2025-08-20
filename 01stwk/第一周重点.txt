@@ -1,0 +1,49 @@
+1. 变量与数据类型
+    基本数据类型：
+        整型：int,short,long,longlong（带符号/无符号）
+        浮点型：float,double,long double
+        字符型：char,wchar_t,char16_t,char32_t
+        布尔型：bool
+    类型修饰符：
+        signed/unsigned
+        const/constexpr（编译时常量）
+    类型转换：
+        隐式转换（整型提升）
+        显式转换：static_case,reinterpret_cast
+    类型推导：
+        auto关键字
+        decltype类型推断
+    复合类型：
+        数组：int arr[5]
+        结构体：struct Point {int x, y;}
+        枚举：enum Color {RED, GREEN, BLUE}
+2. 运算符
+    算术运算符：+ - * / % ++ --
+    关系运算符：== != > < >= <=
+    逻辑运算符：&& || ！
+    位运算符：& | ^ ~ << >>
+    赋值运算符：= += -= *= /= %=
+    特殊运算符：
+        条件运算符：（condition）? expr1 : expr2
+        逗号运算符：expr1,expr2
+        sizeof 运算符
+    运算符优先级与结合性
+3. 基础I/O
+    标准流对象：
+        cin：标准输入
+        cout：标准输出
+        cerr：标准错误
+        clog：日志流
+    格式化控制：
+        setw(n)：设置字段宽度
+        setprecision(n)：设置浮点精度
+        fixed/scientific：浮点表示法
+        boolalpha：布尔值文本表示
+    输入处理：
+        类型安全输入：cin >> var
+        行输入：getline(cin, str)
+        错误处理：cin.fail(),cin.clear(),cin.ignore()
+    文件包含：
+        <iostream>：基本I/O
+        <iomanip>：格式化控制
+        <limits>：类型极限值
