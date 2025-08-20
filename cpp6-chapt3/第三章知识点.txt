@@ -1,0 +1,12 @@
+C++变量的命名规则
+C++内置的整型：unsigned long、long、unsigned int、int、unsigned short、short、char、unsigned char、signed char、bool
+C++新增的整型：unsigned long long、long long、long
+表示各种整型的系统限制的climits文件
+各种整型的数字字面值（常量）
+使用const限定符来创建符号常量
+C++内置的浮点类型：float、double、long double
+表示各种浮点类型的系统限制的从float文件
+各种浮点类型的数字字面值
+C++的算数运算符
+自动类型转换
+强制类型转换
